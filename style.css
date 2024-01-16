@@ -443,7 +443,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .footer-logo {
