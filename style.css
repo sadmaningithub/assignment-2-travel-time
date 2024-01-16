@@ -394,7 +394,7 @@ main {
     padding: 20px;
 }
 
-hr{
+hr {
     margin-bottom: 20px;
 }
 
@@ -429,3 +429,23 @@ hr{
     background: #FF5400;
 }
 
+/* footer styles */
+
+footer {
+    margin: 0px auto;
+    height: 502px;
+    max-width: 1440px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    /* width: 48px;
+    height: 56px; */
+    margin-right: 15px;
+}
