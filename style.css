@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Mulish', sans-serif;
+    /* max-width: 1600px; */
     margin: 0px auto;
 }
 
@@ -16,6 +17,10 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-img {
+    display: none;
 }
 
 .site-logo {
@@ -97,23 +102,37 @@ header {
     height: 50px;
     width: 170px;
     padding: 15px 15px; */
-    padding: 0px;
+    /* padding: 0px; */
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
     border: none;
     height: 50px;
     width: 120px;
     border-radius: 8px;
+    padding-left: 10px;
 }
 
 #when {
     height: 50px;
-    width: 120px;
+    width: 130px;
+    border: none;
     border-radius: 8px;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 #type {
     height: 50px;
-    width: 120px;
+    width: 130px;
+    border: none;
     border-radius: 8px;
+    padding-left: 10px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .btn-primary {
@@ -125,12 +144,12 @@ header {
     border: none;
     border-radius: 8px;
     height: 50px;
-    width: 120px;
+    width: 130px;
 }
 
 .search-section {
     margin: 0px auto;
-    max-width: 600px;
+    max-width: 620px;
     /* display: flex; */
     /* align-items: center; */
 }
@@ -176,6 +195,7 @@ main {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
+    line-height: 201%;
 }
 
 .choose-des {
@@ -183,6 +203,22 @@ main {
     max-width: 1170px;
     /* border: 1px solid red; */
     text-align: center;
+}
+
+.des-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.des-descrip {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 162.5%;
+    /* 162.5% */
 }
 
 .choose-img {
@@ -230,6 +266,14 @@ main {
     text-align: center;
     margin-bottom: 4rem;
 }
+
+.speciality-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 
 .card-row-one {
     display: grid;
@@ -363,6 +407,49 @@ main {
 }
 
 
+/* car rent section */
+
+.car-rent-section {
+    max-width: 1170px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.car-title {
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.car-price-des {
+    color: #FFF;
+    font-size: 1rem;
+}
+
+.car-section {
+    border-radius: 10px;
+    background-color: #0CAFFF;
+}
+
+.car-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rent-btn {
+    background-color: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    padding: 15px 20px;
+}
+
+
 /* video section */
 .video-section {
     max-width: 1170px;
@@ -434,7 +521,7 @@ hr {
 footer {
     margin: 0px auto;
     height: 502px;
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background: rgba(19, 19, 24, 0.05);
 }
 
@@ -462,11 +549,137 @@ footer {
 }
 
 .last-line {
-    width: 872px;
-    height: 1px;
-    padding: 50px auto;
+    max-width: 872px;
+    height: 0px;
+    background: rgba(19, 19, 24, 0.10);
+    /* border:1px solid rgba(19, 19, 24, 0.10); */
+    margin: 0px auto;
+    /* height: 1px; */
+    padding: 3.125rem auto;
 }
 
-.copyright-warn{
+.copyright-warn {
     text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+
+    header {
+        margin: 0px 20px;
+    }
+
+    body {
+        margin: 0px 20px;
+    }
+
+    main {
+        margin: 0px 20px;
+    }
+
+    /* footer{
+        margin: 0px 20px;
+    } */
+
+    .banner {
+        margin: 0px;
+        width: 100%;
+        height: 100%;
+        background-position: center;
+    }
+
+    /* .nav-section{
+        display: none;
+    } */
+
+    .navigation-bar {
+        flex-direction: column;
+    }
+
+    .search-section {
+        display: flex;
+        justify-content: center;
+    }
+
+    /* .nav-img{
+        display: inline;
+    } */
+
+    .search-boxes {
+        flex-direction: column;
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .popular-section-container {
+        flex-direction: column;
+    }
+
+    .him-img {
+        width: 100%;
+    }
+
+    /* .choose-img{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .text-content-part {
+        margin-bottom: 30px;
+    }
+
+    .row-one {
+        flex-direction: column;
+    }
+
+    .row-two {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .row-three {
+        flex-direction: column;
+    }
+
+    .img-des {
+        width: 100%;
+    }
+
+    .speciality-section {
+        flex-direction: column;
+    }
+
+    .deal-section {
+        flex-direction: column;
+    }
+
+    .btn-package {
+        margin-top: 30px;
+    }
+
+    .video-section {
+        flex-direction: column;
+    }
+
+    iframe {
+        /* height: 100%; */
+        width: 100%;
+    }
+
+    .newsletter-section {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .news-col-one {
+        width: 100%;
+    }
+
+    .news-img {
+        width: 100%;
+    }
+
+    hr {
+        /* max-height: 20px; */
+    }
+
 }
