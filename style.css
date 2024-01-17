@@ -690,5 +690,12 @@ footer {
     hr {
         /* max-height: 20px; */
     }
+    footer{
+        margin-top: 50px;
+    }
 
 }
+
+/* @media screen and (min-width){
+    
+} */
