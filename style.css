@@ -592,7 +592,7 @@ footer {
     } */
 
     .navigation-bar {
-        flex-direction: column;
+        /* flex-direction: column; */
     }
 
     .search-section {
@@ -600,9 +600,13 @@ footer {
         justify-content: center;
     }
 
-    /* .nav-img{
+    .nav-section ul{
+        display: none;
+    }
+
+    .nav-img{
         display: inline;
-    } */
+    }
 
     .search-boxes {
         flex-direction: column;
@@ -650,6 +654,11 @@ footer {
 
     .deal-section {
         flex-direction: column;
+    }
+
+    .car-cards{
+        flex-direction: column;
+        gap: 20px;
     }
 
     .btn-package {
