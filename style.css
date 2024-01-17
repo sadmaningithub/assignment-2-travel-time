@@ -754,6 +754,9 @@ footer {
     .news-img {
         width: 100%;
     }
+    .dis-div{
+        left:170px;
+    }
 
     .last-line {
         max-width: 480px;
